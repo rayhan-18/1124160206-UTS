@@ -13,17 +13,19 @@
     <img src="/image/me.webp" class="profile-me">
 
     <style>
-        .profile-me{
-            width: 200px;
-            height: 200px;
-            object-fit: cover;
-            border-radius: 50%;
-            border: 3px solid black;
-        }
+        .profile-me {
+        display: block;
+        margin: 0 auto;
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 50%;
+        border: 3px solid black;
+    }
     </style>
     <br><br>
 
-    <ul>
+    <ul class="info-list">
         <li class="kampus">Kampus : <a href="https://global.ac.id/" target="_blank">Global Institut</li></a>
         <li>Nim : 1124160206</li>
         <li>Nama : Muhamad Rayhan</li>
@@ -31,7 +33,10 @@
         <li>Semester : 2</li>
         <li>Matakuliah : Perancangan Web</li>
     </ul>
+    <br><br>
+
     <style>
+
         .kampus a{
             text-decoration: none;
             color: inherit;
@@ -114,5 +119,47 @@
         </a>
         
     </footer>
+    <br><br>
+
+    <style>
+
+footer {
+    background: linear-gradient(135deg, #2c3e50, #34495e); 
+    padding: 40px 0 40px 0; 
+    color: #ecf0f1; 
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+footer a {
+    margin: 0 20px; 
+    display: inline-block;
+    font-size: 18px; 
+    color: #ecf0f1; 
+    text-decoration: none; 
+    transition: transform 0.3s ease, color 0.3s ease; 
+}
+
+footer a:hover {
+    transform: scale(1.1); 
+    color: #f39c12; 
+}
+
+footer img {
+    width: 80px; 
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%; 
+    border: 4px solid #34495e; 
+    margin-bottom: 20px; 
+}
+
+footer p {
+    font-size: 14px;
+    margin-top: 20px; 
+    color: #bdc3c7; 
+}
+ 
+    </style>
 </body>
 </html>
